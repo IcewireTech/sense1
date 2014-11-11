@@ -1,0 +1,10 @@
+{
+    "name": "sense1",
+    "version": "1.0.0",
+    "manifest_version": 1,
+    "project_type": "application",
+    "executable_type": "scratch",
+    "executable": "sense1.xml",
+    "author": "IcewireTech",
+    "minimum_firmware_version": 40
+}
