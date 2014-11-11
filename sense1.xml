@@ -11,7 +11,7 @@
         <mutation else="1"></mutation>
         <value name="IF0">
           <block type="sensor_object" id="7">
-            <field name="OBJECT">RIGHTFRONT</field>
+            <field name="OBJECT">LEFTFRONT</field>
           </block>
         </value>
         <statement name="DO0">
@@ -34,6 +34,15 @@
             </value>
           </block>
         </statement>
+        <next>
+          <block type="robot_delay" id="54" inline="true">
+            <value name="DELAY">
+              <block type="math_number" id="61">
+                <field name="NUM">100</field>
+              </block>
+            </value>
+          </block>
+        </next>
       </block>
     </statement>
   </block>
