@@ -11,7 +11,7 @@
         <mutation else="1"></mutation>
         <value name="IF0">
           <block type="sensor_object" id="7">
-            <field name="OBJECT">LEFTFRONT</field>
+            <field name="OBJECT">RIGHTFRONT</field>
           </block>
         </value>
         <statement name="DO0">
